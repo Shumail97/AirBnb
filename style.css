@@ -1,0 +1,94 @@
+/** @format */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header #nolist {
+  font-size: 18px;
+  font-weight: 200;
+  text-decoration: underline;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.search-box {
+  margin-top: 50px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.content {
+  display: inline-flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.left-column {
+  display: inline-block;
+  box-sizing: border-box;
+  flex-direction: column;
+  margin-top: 10px;
+  height: 500px;
+  width: 500px;
+}
+
+.right-column {
+  width: 600px;
+  display: inline-flex;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  margin-top: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.sidebar img {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.fontcolor {
+  font-size: 25px;
+  color: pink;
+  font-weight: 200;
+}
+
+.listing {
+  margin-top: 50px;
+  display: inline-block;
+  width: 30%;
+}
+.listing img {
+  width: 200px;
+}
+.listing-details {
+  margin-top: 50px;
+}
+.listing-details img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.listing-details a {
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 20px;
+}
+.footer a {
+  display: block;
+  margin: 5px 0;
+}
+.footer img {
+  margin: 10px 5px;
+}
